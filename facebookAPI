@@ -1,0 +1,42 @@
+
+FACEBOOK  API's
+        1) User account creationg
+          https://www.facebook.com/create
+          {
+          "userName":"",
+          "userID" : "",
+          "password":""
+          }
+
+
+        2) Follow another user
+          https://www.facebook.com/update
+          {
+          userId:"requester_id",
+          following:"followUserId"
+          }
+
+
+        3) Friend another user
+        https://www.facebook.com/friend
+       {
+        "userID" : ""
+        "friendUserID" : ""
+        }
+
+        4) unfriend another user
+        https://www.facebook.com/unriend
+          {
+          userid:"requester_id",
+          unfollowing:"unfriendid"
+          }
+
+          
+        5) post
+        https://www.facebook.com/update
+        {
+        userid:"userid",
+        post:["post1","post2"]
+        }
+        6) likes
+        
