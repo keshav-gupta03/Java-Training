@@ -1,7 +1,7 @@
 
 FACEBOOK  API's
         1) User account creationg
-          https://www.facebook.com/create
+          https://www.facebook.com/create   ->  POST
           {
           "userName":"",
           "userID" : "",
@@ -9,7 +9,7 @@ FACEBOOK  API's
           }
 
 
-        2) Follow another user
+        2) Follow another user       -> POST/PUT
           https://www.facebook.com/update
           {
           userId:"requester_id",
@@ -17,14 +17,14 @@ FACEBOOK  API's
           }
 
 
-        3) Friend another user
+        3) Friend another user        -> POST/PUT
         https://www.facebook.com/friend
        {
         "userID" : ""
         "friendUserID" : ""
         }
 
-        4) unfriend another user
+        4) unfriend another user      -> DELETE
         https://www.facebook.com/unriend
           {
           userid:"requester_id",
@@ -32,7 +32,7 @@ FACEBOOK  API's
           }
 
           
-        5) post
+        5) post                -> POST
         https://www.facebook.com/update
         {
         userid:"userid",
@@ -40,6 +40,6 @@ FACEBOOK  API's
         }
         
         
-        6) likes
+        6) likes       -> GET
         https://www.facebook.com/likes?userId=123&post=12345
         
