@@ -38,5 +38,8 @@ FACEBOOK  API's
         userid:"userid",
         post:["post1","post2"]
         }
+        
+        
         6) likes
+        https://www.facebook.com/likes?userId=123&post=12345
         
